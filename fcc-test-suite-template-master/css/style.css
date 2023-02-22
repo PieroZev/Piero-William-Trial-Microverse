@@ -1,0 +1,20 @@
+body{
+	display: inline-flex
+}
+@media (min-width: 600px){
+  #navbar{
+  	float: left;
+  }
+  #main-doc{
+  	float: right;
+  }
+}
+@media (max-width: 600px){
+  #navbar{
+  	float: left;
+  	position: fixed;
+  }
+  #main-doc{
+  	float: right;
+  }
+}
