@@ -4,10 +4,22 @@ body{
 @media (min-width: 600px){
   #navbar{
   	float: left;
+    width: 400px;
+    border-right: 1px black solid;
   }
   #main-doc{
   	float: right;
+    padding: 20px;
   }
+
+  .main-section{
+    margin-bottom:30px;
+  }
+
+  .nav-link{
+    border-bottom: 1px gray solid;
+  }
+
 }
 @media (max-width: 600px){
   #navbar{
@@ -17,4 +29,9 @@ body{
   #main-doc{
   	float: right;
   }
+}
+
+header{
+  font-size: 24px;
+  font-weight: bold;
 }
